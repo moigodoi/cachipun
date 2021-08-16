@@ -1,0 +1,124 @@
+body {
+  background-color: cyan;
+  display: grid;
+  width: 98%;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+/*  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
+  gap: 6px;
+  text-align: center;
+}
+
+header{
+  font-size: 100px;
+  color:red;
+
+}
+
+#cachipun {
+ grid-column-start: 1 ;
+ grid-column-end: 2 ;
+ grid-row-start: 1 ;
+ grid-row-end:2 ;
+ background-color: green;
+ padding-top: 30px;
+ border: .1rem dotted black;
+ padding: 0.5rem;
+ margin-bottom: 00.5rem;
+ 
+}
+
+#cachipun h2{
+  margin-top: auto ;
+  padding-top: auto;
+}
+
+#gif-ani{
+  border: .1rem dotted black;
+  padding: 0.5rem;
+  margin-bottom: 00.5rem;
+
+}
+
+#computerplay {
+  grid-column-start: 3;
+  grid-column-end : 4 ;
+  grid-row-start: 1;
+  grid-row-end:2;
+  background-color: green;
+  padding-top: 30px;
+  font-size: 20px;
+  border: .1rem dotted black;
+  padding: 0.5rem;
+  margin-bottom: 00.5rem;
+ }
+
+ #computerplay h2{
+   margin-top: auto;
+ }
+
+#result{
+  grid-column-start: 2;
+  grid-column-end : 3 ;
+  grid-row-start: 2;
+  grid-row-end: 3 ;
+  background-color: cornflowerblue;
+  border: .1rem dotted black;
+  padding: 0.5rem;
+  margin-bottom: 00.5rem;
+
+}
+
+#scoretitle{
+  grid-column-start: 2;
+  grid-column-end : 3 ;
+  grid-row-start: 3;
+  grid-row-end: 4 ;
+  background-color: crimson;
+  padding-top: 2%;
+  font-size: 30px;
+  border: .1rem dotted black;
+  padding: 0.5rem;
+  margin-bottom: 00.5rem;
+
+}
+
+#computerscorestyle {
+grid-area: 3/3/5/4;
+background-color: green;
+padding-top: 10%;
+font-size: 2em;
+color:yellow;
+border: .1rem dotted black;
+padding: 0.5rem;
+margin-bottom: 00.5rem;
+
+}
+
+#playerscorestyle {
+grid-area: 3/1/5/2;
+background-color: green;
+padding-top: 10%;
+font-size: 2em;
+color:yellow;
+border: .1rem dotted black;
+padding: 0.5rem;
+margin-bottom: 00.5rem;
+
+}
+.btn{
+  font-size: 1.3em;
+  transition-duration: 0.4s;
+  background-color: rgba(201, 197, 197, 0.884);
+  border-radius: 6px;
+}
+.btn:hover{
+  background-color:blue ;
+  color:whitesmoke;
+}
+
+#resultado{
+  color:yellow;
+  font-size: 2em;
+  
+}

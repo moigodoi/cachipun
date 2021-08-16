@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CA-CHI-PUN</title>
+        <link href="assets/css/style.css" rel="stylesheet">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head> 
+  <body>
+    <header>Cachipún</header>
+    <div id="cachipun">
+        <h2>Elección del Jugador</h2>
+        <h3>Elija una Opción</h3>
+        <button class="btn" id="1">Piedra</button>
+        <button class="btn" id="2">Papel</button>
+        <button class="btn" id="3">Tijera</button>
+    </div>
+    <div id="computerplay">
+        <h2>Jugada del Computador</h2>
+        <h3 id="computerChoice" >??</h3>
+    </div>
+    <div id="gif-ani">
+      <img src="assets/css/img/87014.gif" width="400" height="200"  alt="">
+
+    </div>
+    <div id="result">
+
+        <h3 id="resultado">?</h3>
+    </div>
+    <div id="gif-ani">
+      <img src="assets/css/img/87015.gif" width="400" height="200" alt="">
+
+    </div>
+    <div id='scoretitle'> 
+       <h4><==  Jugadas  ==></h4>
+       <span id='numberOfGames'>0</span>
+    </div>   
+    <div id='computerscorestyle'> 
+          <h4>Puntaje de la Computadora</h4>
+          <span id='computerScore'>0</span>
+    </div>
+    <div id= 'playerscorestyle'>
+          <h4>Puntaje Jugador</h4>
+          <span id='playerScore'>0</span>
+    </div>
+    <div id="salida"></div>
+
+  <script src="assets/script/cachipun.js"></script>
+  </body>
+  </html>
